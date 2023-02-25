@@ -1,0 +1,18 @@
+{
+    "public": {},
+    "user": {
+        "username": "admin",
+        "email": "admin@admin.com",
+        "password": "1234",
+        "profile": {
+            "name": "admin"
+        }
+    },
+    "key": 123123,
+    "secret": "secret",
+    "TWILIO_ACCOUNT_SID": "ACc2e61ea3ada9ef4ad339774efbc10c90",
+    "TWILIO_CALLER_ID": "+12762953790",
+    "TWILIO_TWIML_APP_SID": "AP902684fb636ee4365da5c45d1d9e9289",
+    "TWILIO_API_KEY": "SKef4d085d1766f4efece982c5d6372add",
+    "TWILIO_API_SECRET": "NcRLA4xeZkKxL4J3czS09O5EsMyKv5rj"
+}
