@@ -193,7 +193,7 @@ export default class Peer1 extends Component {
         return (
             <>
 
-                <h1>Connect to Phone</h1>
+                <h1>Connect to Phone Call</h1>
                 <button onClick={this.startupClient.bind(this)}>Start</button>
                 {this.state.showCallButton &&
                     <div className="call_input_container">
