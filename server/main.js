@@ -1,12 +1,13 @@
 import { Meteor } from "meteor/meteor"
 import Server from "../imports/api/classes/server/Server"
-
+import cors from "cors"
 import "../imports/api/server/api"
 import "../imports/startup/server"
 
 const express = require("express")
 const http = require("http")
 const app = express()
+app.use(cors());
 const server = http.createServer(app)
 const io = require("socket.io")(server, {
 	cors: {
