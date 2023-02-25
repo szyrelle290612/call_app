@@ -3,7 +3,7 @@ import Peer from "simple-peer"
 import io from "socket.io-client"
 import AppW from '../api/classes/client/App';
 
-const socket = io.connect('http://localhost:8080')
+const socket = io.connect()
 
 
 
